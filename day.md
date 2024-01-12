@@ -7,12 +7,12 @@
 - logged in canvas to see if I have homework due today
 - I checked my Email and my clients accounts in case I have work to do
 - Drove to USPS to drope packages
-- 
+  
 2. Afternoon
 - I had Lunch with my spouse
 - I took a shower and prepared myself to go to work.
 - Went to work.
-- 
+  
 4. Evening
   
 *Working*
