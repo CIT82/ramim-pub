@@ -1,34 +1,57 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Rami Moula</title>
-<style>
-      body {
-        background-color: gray;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-      }
-      h1 {
-        font-size: 25px;
-        font-weight: bold;
-        color: blue;
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      img {
-        border: 3px solid;
-        padding: 5px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Hi, This is me!</h1>
-    <img src="../images/pictureofme.jpg" alt="My test image" />
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body class="outline">
+    <header>
+        <h1>Welcome to my website</h1>
+    </header>
+    <main>
+            <p>This webpage is not the first page that i create</p>
+            <section>
+                <h2 >My Fav Fruits</h2>
+                <ul>
+                    <li>Banana</li>
+                    <li>Strawberry</li>
+                    <li>Apple</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Steps to make a Sandwich</h2>
+                <ol>
+                    <li>Get Bread Slices</li>
+                    <li>Add filings</li>
+                    <li>Put the slides together</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Contact Us</h2>
+                <form action="">
+                    <label>Name:</label>
+                    <input type="text">
+                    <label>Email:</label>
+                    <input type="email">
+                    <label>Message:</label>
+                    <textarea cols="30" rows="10"></textarea><br>
+                    <button>Submit</button>
+                </form>
+            </section>
+            <section>
+                <h2>Find Pictures</h2>
+                <img src="images/cutecatone.jpg" alt="picture one">
+                <img src="images/cutecattwo.jpg" alt="picture two">
+                <h2>Create Links</h2>
+                <a href="https://www.google.com/" target="_blank">Google</a><br>
+                <a href="https://www.youtube.com/"target="_blank">Youtube</a>
+            </section>
+    </main>
+    <footer>
+        Copyright &copy; Rami Moula
+    </footer>
+</body>
 </html>
