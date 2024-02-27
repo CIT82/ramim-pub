@@ -278,8 +278,8 @@
               class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
             >
               <li class="dropdown-header">
-                <h6>Kevin Anderson</h6>
-                <span>Web Designer</span>
+                <h6>Rami Moula</h6>
+                <span>Student</span>
               </li>
               <li>
                 <hr class="dropdown-divider" />
@@ -366,7 +366,7 @@
           </a>
         </li>
         <!-- End Contribution Forms Nav -->
-
+        <li class="nav-heading">Tools</li>
         <li class="nav-item">
           <a class="nav-link" href="contributionsearch.html">
             <i class="bi bi-search"></i>
@@ -376,12 +376,26 @@
         <!-- End contributionsearch Nav -->
 
         <li class="nav-item">
+          <a class="nav-link" href="refunds.html">
+            <i class="bi bi-cash-stack"></i>
+            <span>Refunds</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
           <a class="nav-link" href="reporting.html">
             <i class="bi bi-bar-chart"></i>
             <span>Reporting</span>
           </a>
         </li>
         <!-- End Reporting Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link" href="downloads.html">
+            <i class="bi bi-arrow-down-circle"></i>
+            <span>Downloads</span>
+          </a>
+        </li>
 
         <li class="nav-heading">Insight</li>
         <li class="nav-item">
@@ -390,6 +404,8 @@
             <span>Donors</span>
           </a>
         </li>
+
+
         <!-- End Profile Page Nav -->
 
         <li class="nav-heading">Pages</li>
@@ -401,6 +417,21 @@
           </a>
         </li>
         <!-- End Profile Page Nav -->
+
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="campaigns.html">
+            <i class="bi bi-megaphone"></i>
+            <span>Campaigns</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="settings.html">
+            <i class="bi bi-gear-fill"></i>
+            <span>Settings</span>
+          </a>
+        </li>
 
         <li class="nav-item">
           <a class="nav-link collapsed" href="pages-faq.html">
@@ -417,566 +448,210 @@
           </a>
         </li>
         <!-- End Contact Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="help.html">
+            <i class="bi bi-question"></i>
+            <span>Help</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="logout.html">
+            <i class="bi bi-box-arrow-right"></i>
+            <span>Logout</span>
+          </a>
+        </li>
       </ul>
     </aside>
     <!-- End Sidebar-->
 
     <main id="main" class="main">
       <div class="pagetitle">
-        <h1>Dashboard</h1>
+        <h1>Contribution Search</h1>
         <nav>
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active">Dashboard</li>
+            <li class="breadcrumb-item active">Contribution Search</li>
           </ol>
         </nav>
       </div>
       <!-- End Page Title -->
 
       <section class="section dashboard">
-        <div class="row">
-          <!-- Left side columns -->
-          <div class="col-lg-8">
-            <div class="row">
-              <!-- Sales Card -->
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card sales-card">
-                  <div class="filter">
-                    <a class="icon" href="#" data-bs-toggle="dropdown"
-                      ><i class="bi bi-three-dots"></i
-                    ></a>
-                    <ul
-                      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow"
-                    >
-                      <li class="dropdown-header text-start">
-                        <h6>Filter</h6>
-                      </li>
-
-                      <li><a class="dropdown-item" href="#">Today</a></li>
-                      <li><a class="dropdown-item" href="#">This Month</a></li>
-                      <li><a class="dropdown-item" href="#">This Year</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Contributions <span>| Today</span>
-                    </h5>
-
-                    <div class="d-flex align-items-center">
-                      <div
-                        class="card-icon rounded-circle d-flex align-items-center justify-content-center"
-                      >
-                        <i class="bi bi-cart"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6>145</h6>
-                        <span class="text-success small pt-1 fw-bold">12%</span>
-                        <span class="text-muted small pt-2 ps-1">increase</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Sales Card -->
-
-              <!-- Revenue Card -->
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card revenue-card">
-                  <div class="filter">
-                    <a class="icon" href="#" data-bs-toggle="dropdown"
-                      ><i class="bi bi-three-dots"></i
-                    ></a>
-                    <ul
-                      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow"
-                    >
-                      <li class="dropdown-header text-start">
-                        <h6>Filter</h6>
-                      </li>
-
-                      <li><a class="dropdown-item" href="#">Today</a></li>
-                      <li><a class="dropdown-item" href="#">This Month</a></li>
-                      <li><a class="dropdown-item" href="#">This Year</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Revenue <span>| This Month</span>
-                    </h5>
-
-                    <div class="d-flex align-items-center">
-                      <div
-                        class="card-icon rounded-circle d-flex align-items-center justify-content-center"
-                      >
-                        <i class="bi bi-currency-dollar"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6>$3,264</h6>
-                        <span class="text-success small pt-1 fw-bold">8%</span>
-                        <span class="text-muted small pt-2 ps-1">increase</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Revenue Card -->
-
-              <!-- Customers Card -->
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card customers-card">
-                  <div class="filter">
-                    <a class="icon" href="#" data-bs-toggle="dropdown"
-                      ><i class="bi bi-three-dots"></i
-                    ></a>
-                    <ul
-                      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow"
-                    >
-                      <li class="dropdown-header text-start">
-                        <h6>Filter</h6>
-                      </li>
-
-                      <li><a class="dropdown-item" href="#">Today</a></li>
-                      <li><a class="dropdown-item" href="#">This Month</a></li>
-                      <li><a class="dropdown-item" href="#">This Year</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="card-body">
-                    <h5 class="card-title">Donors <span>| This Year</span></h5>
-
-                    <div class="d-flex align-items-center">
-                      <div
-                        class="card-icon rounded-circle d-flex align-items-center justify-content-center"
-                      >
-                        <i class="bi bi-people"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6>1244</h6>
-                        <span class="text-danger small pt-1 fw-bold">12%</span>
-                        <span class="text-muted small pt-2 ps-1">decrease</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Customers Card -->
-
-              <!-- Revenue Card -->
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card revenue-card">
-                  <div class="filter">
-                    <a class="icon" href="#" data-bs-toggle="dropdown"
-                      ><i class="bi bi-three-dots"></i
-                    ></a>
-                    <ul
-                      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow"
-                    >
-                      <li class="dropdown-header text-start">
-                        <h6>Filter</h6>
-                      </li>
-
-                      <li><a class="dropdown-item" href="#">Today</a></li>
-                      <li><a class="dropdown-item" href="#">This Month</a></li>
-                      <li><a class="dropdown-item" href="#">This Year</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Total Amount Raised <span>| This Year</span>
-                    </h5>
-
-                    <div class="d-flex align-items-center">
-                      <div
-                        class="card-icon rounded-circle d-flex align-items-center justify-content-center"
-                      >
-                        <i class="bi bi-currency-dollar"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6>$53,264</h6>
-                        <span class="text-success small pt-1 fw-bold">3%</span>
-                        <span class="text-muted small pt-2 ps-1">increase</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Revenue Card -->
-
-              <!-- Reports -->
-              <div class="col-12">
-                <div class="card">
-                  <div class="filter">
-                    <a class="icon" href="#" data-bs-toggle="dropdown"
-                      ><i class="bi bi-three-dots"></i
-                    ></a>
-                    <ul
-                      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow"
-                    >
-                      <li class="dropdown-header text-start">
-                        <h6>Filter</h6>
-                      </li>
-
-                      <li><a class="dropdown-item" href="#">Today</a></li>
-                      <li><a class="dropdown-item" href="#">This Month</a></li>
-                      <li><a class="dropdown-item" href="#">This Year</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="card-body">
-                    <h5 class="card-title">Reports <span>/Today</span></h5>
-
-                    <!-- Histogram Chart for Revenue -->
-                    <div id="revenueHistogram"></div>
-
-                    <script>
-                      document.addEventListener("DOMContentLoaded", () => {
-                        new ApexCharts(
-                          document.querySelector("#revenueHistogram"),
-                          {
-                            series: [
-                              {
-                                name: "Revenue",
-                                data: [100, 350, 50, 1000, 25, 150, 500],
-                              },
-                            ],
-                            chart: {
-                              height: 350,
-                              type: "bar", // Set chart type to 'bar' for histogram
-                              toolbar: {
-                                show: false,
-                              },
-                            },
-                            plotOptions: {
-                              bar: {
-                                horizontal: false,
-                                columnWidth: "55%", // Adjust the width of the bars
-                                endingShape: "rounded",
-                              },
-                            },
-                            colors: ["blue"], // Color for the 'Revenue' bars
-                            fill: {
-                              type: "gradient",
-                              gradient: {
-                                shadeIntensity: 1,
-                                opacityFrom: 0.3,
-                                opacityTo: 0.4,
-                                stops: [0, 90, 100],
-                              },
-                            },
-                            dataLabels: {
-                              enabled: false,
-                            },
-                            xaxis: {
-                              categories: [
-                                "02/16/2024",
-                                "02/17/2024",
-                                "02/18/2024",
-                                "02/19/2024",
-                                "02/20/2024",
-                                "02/21/2024",
-                                "02/22/2024",
-                              ],
-                            },
-                            yaxis: {
-                              title: {
-                                text: "Dollars raised", // Y-axis title
-                              },
-                            },
-                            tooltip: {
-                              y: {
-                                formatter: function (val) {
-                                  return val + " units";
-                                },
-                              },
-                            },
-                          }
-                        ).render();
-                      });
-                    </script>
-                    <!-- End Histogram Chart for Revenue -->
-                  </div>
-                </div>
-              </div>
-              <!-- End Reports -->
-
-              <!-- Recent Contributions -->
-              <div class="col-12">
-                <div class="card recent-sales overflow-auto">
-                  <div class="filter">
-                    <a class="icon" href="#" data-bs-toggle="dropdown"
-                      ><i class="bi bi-three-dots"></i
-                    ></a>
-                    <ul
-                      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow"
-                    >
-                      <li class="dropdown-header text-start">
-                        <h6>Filter</h6>
-                      </li>
-
-                      <li><a class="dropdown-item" href="#">Today</a></li>
-                      <li><a class="dropdown-item" href="#">This Month</a></li>
-                      <li><a class="dropdown-item" href="#">This Year</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Recent Contributions <span>| Today</span>
-                    </h5>
-
-                    <table class="table table-borderless datatable">
-                      <thead>
-                        <tr>
-                          <th scope="col">Date</th>
-                          <th scope="col">Name</th>
-                          <th scope="col">Address</th>
-                          <th scope="col">Amount</th>
-                          <th scope="col">Type</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row"><a href="#">02/22/2024</a></th>
-                          <td>Brandon Jacob</td>
-                          <td>
-                            <a href="#" class="text-primary"
-                              >At praesentium minu</a
-                            >
-                          </td>
-                          <td>$64</td>
-                          <td>
-                            <span class="badge bg-success">One-time</span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#">02/22/2024</a></th>
-                          <td>Bridie Kessler</td>
-                          <td>
-                            <a href="#" class="text-primary"
-                              >Blanditiis dolor omnis similique</a
-                            >
-                          </td>
-                          <td>$47</td>
-                          <td><span class="badge bg-success">One-time</span></td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#">02/21/2024</a></th>
-                          <td>Ashleigh Langosh</td>
-                          <td>
-                            <a href="#" class="text-primary"
-                              >At recusandae consectetur</a
-                            >
-                          </td>
-                          <td>$147</td>
-                          <td>
-                            <span class="badge bg-success">One-time</span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#">02/21/2024</a></th>
-                          <td>Angus Grady</td>
-                          <td>
-                            <a href="#" class="text-primar"
-                              >Ut voluptatem id earum et</a
-                            >
-                          </td>
-                          <td>$67</td>
-                          <td><span class="badge bg-info ">Recurring</span></td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#">02/20/2024</a></th>
-                          <td>Raheem Lehner</td>
-                          <td>
-                            <a href="#" class="text-primary"
-                              >Sunt similique distinctio</a
-                            >
-                          </td>
-                          <td>$165</td>
-                          <td>
-                            <span class="badge bg-success">One-time</span>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <!-- End Recent Sales -->
-
-              <!-- Top Donors -->
-              <div class="col-12">
-                <div class="card recent-sales overflow-auto">
-                  <div class="filter">
-                    <a class="icon" href="#" data-bs-toggle="dropdown"
-                      ><i class="bi bi-three-dots"></i
-                    ></a>
-                    <ul
-                      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow"
-                    >
-                      <li class="dropdown-header text-start">
-                        <h6>Filter</h6>
-                      </li>
-
-                      <li><a class="dropdown-item" href="#">Today</a></li>
-                      <li><a class="dropdown-item" href="#">This Month</a></li>
-                      <li><a class="dropdown-item" href="#">This Year</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Top Donors
-                    </h5>
-
-                    <table class="table table-bordered text-center">
-                      <thead class="table-light">
-                        <tr>
-                          <th scope="col">Rank</th>
-                          <th scope="col">Name</th>
-                          <th scope="col">Total Amount</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row"><a href="#">#1</a></th>
-                          <td>Brandon Jacob</td>
-                          <td>$4000</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#">#2</a></th>
-                          <td>Bridie Kessler</td>
-                          <td>$3500</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#">#3</a></th>
-                          <td>Ashleigh Langosh</td>
-                          <td>$3420</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#">#4</a></th>
-                          <td>Angus Grady</td>
-                          <td>$3000</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#">#5</a></th>
-                          <td>Raheem Lehner</td>
-                          <td>$2000</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <!-- End Recent Sales -->
-            </div>
-          </div>
-          <!-- End Left side columns -->
-
-          <!-- Right side columns -->
-          <div class="col-lg-4">
-            <!-- Recent Activity -->
-            <div class="card">
-              <div class="filter">
-                <a class="icon" href="#" data-bs-toggle="dropdown"
-                  ><i class="bi bi-three-dots"></i
-                ></a>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                  <li class="dropdown-header text-start">
-                    <h6>Filter</h6>
-                  </li>
-
-                  <li><a class="dropdown-item" href="#">Today</a></li>
-                  <li><a class="dropdown-item" href="#">This Month</a></li>
-                  <li><a class="dropdown-item" href="#">This Year</a></li>
-                </ul>
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">Recent Activity <span>| Today</span></h5>
-
-                <div class="activity">
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">32 min</div>
-                    <i
-                      class="bi bi-circle-fill activity-badge text-success align-self-start"
-                    ></i>
-                    <div class="activity-content">
-                      Quia quae rerum
-                      <a href="#" class="fw-bold text-dark"
-                        >explicabo officiis</a
-                      >
-                      beatae
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">56 min</div>
-                    <i
-                      class="bi bi-circle-fill activity-badge text-danger align-self-start"
-                    ></i>
-                    <div class="activity-content">
-                      Voluptatem blanditiis blanditiis eveniet
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">2 hrs</div>
-                    <i
-                      class="bi bi-circle-fill activity-badge text-primary align-self-start"
-                    ></i>
-                    <div class="activity-content">
-                      Voluptates corrupti molestias voluptatem
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">1 day</div>
-                    <i
-                      class="bi bi-circle-fill activity-badge text-info align-self-start"
-                    ></i>
-                    <div class="activity-content">
-                      Tempore autem saepe
-                      <a href="#" class="fw-bold text-dark"
-                        >occaecati voluptatem</a
-                      >
-                      tempore
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">2 days</div>
-                    <i
-                      class="bi bi-circle-fill activity-badge text-warning align-self-start"
-                    ></i>
-                    <div class="activity-content">
-                      Est sit eum reiciendis exercitationem
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-
-                  <div class="activity-item d-flex">
-                    <div class="activite-label">4 weeks</div>
-                    <i
-                      class="bi bi-circle-fill activity-badge text-muted align-self-start"
-                    ></i>
-                    <div class="activity-content">
-                      Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
-                    </div>
-                  </div>
-                  <!-- End activity item-->
-                </div>
+        <div class="container mt-5">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="dateRange">Date Range</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="dateRange"
+                  placeholder="All Time"
+                />
               </div>
             </div>
-            <!-- End Recent Activity -->
-          </div>
-          <!-- End Right side columns -->
+            <div class="form-row">
+              <div class="form-group col-md-3">
+                <label for="lastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder="Last name"
+                />
+              </div>
+              <div class="form-group col-md-3">
+                <label for="firstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  placeholder="First name"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="email@address.com"
+                />
+              </div>
+              <div class="form-group col-md-3">
+                <label for="orderNumber">Order Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="orderNumber"
+                  placeholder="AB00000000"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-2">
+                <label for="minAmount">Minimum Dollar Amount</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="minAmount"
+                  placeholder="None"
+                />
+              </div>
+              <div class="form-group col-md-2">
+                <label for="maxAmount">Maximum Dollar Amount</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="maxAmount"
+                  placeholder="None"
+                />
+              </div>
+              <div class="form-group col-md-2">
+                <label for="refCode">Refcode</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="refCode"
+                  placeholder="Refcode"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="showAdvancedFilters"
+                  />
+                  <label class="form-check-label" for="showAdvancedFilters"
+                    >Show Advanced Filters</label
+                  >
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <button type="button" class="btn btn-primary">Search</button>
+                <button type="button" class="btn btn-secondary ml-2">
+                  Reset
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
+      </section>
+      <section>
+        <table class="table mt-4">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Name and email</th>
+              <th scope="col">Contribution form</th>
+              <th scope="col">Refcode</th>
+              <th scope="col">Amount</th>
+              <th scope="col">Contribution type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Add 25 rows of data here -->
+            <tr>
+              <td>2024-02-24</td>
+              <td>John Doe</td>
+              <td>Compaign 1</td>
+              <td>No refcode</td>
+              <td>$250.0</td>
+              <td>First-time</td>
+            </tr>
+            <tr>
+              <td>2024-02-24</td>
+              <td>John Doe</td>
+              <td>Compaign 1</td>
+              <td>No refcode</td>
+              <td>$50.0</td>
+              <td>First-time</td>
+            </tr>
+            <tr>
+              <td>2024-02-24</td>
+              <td>John Doe</td>
+              <td>Compaign 1</td>
+              <td>No refcode</td>
+              <td>$25.0</td>
+              <td>First-time</td>
+            </tr>
+            <tr>
+              <td>2024-02-23</td>
+              <td>Jane Doe</td>
+              <td>Compaign 1</td>
+              <td>No refcode</td>
+              <td>$150.0</td>
+              <td>First-time</td>
+            </tr>
+            <tr>
+              <td>2024-02-23</td>
+              <td>Jane Doe</td>
+              <td>Compaign 1</td>
+              <td>No refcode</td>
+              <td>$1000.0</td>
+              <td>First-time</td>
+            </tr>
+            <tr>
+              <td>2024-02-23</td>
+              <td>Jane Doe</td>
+              <td>Compaign 1</td>
+              <td>No refcode</td>
+              <td>$550.0</td>
+              <td>First-time</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
       </section>
     </main>
     <!-- End #main -->
