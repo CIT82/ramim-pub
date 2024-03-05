@@ -1231,3 +1231,42 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+.footer {
+  padding: 30px;
+  text-align: center;
+}
+
+.contact {
+  margin-top: 30px;
+}
+
+.contact h3 {
+  color: #f0ad4e; 
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin: 5px 0;
+  color: #012970;
+}
+
+.contact a {
+  color: #f0ad4e; 
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* CSS to make First Name and Last Name fields next to each other */
+.form-row .form-group.col-md-3 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* CSS to make Minimum and Maximum Amount fields next to each other */
+.form-row .form-group.col-md-2 {
+  display: inline-block;
+  margin-right: 10px;
+}
