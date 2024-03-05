@@ -1259,13 +1259,13 @@ h6 {
   text-decoration: underline;
 }
 
-/* CSS to make First Name and Last Name fields next to each other */
+
 .form-row .form-group.col-md-3 {
   display: inline-block;
   margin-right: 10px;
 }
 
-/* CSS to make Minimum and Maximum Amount fields next to each other */
+
 .form-row .form-group.col-md-2 {
   display: inline-block;
   margin-right: 10px;
